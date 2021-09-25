@@ -81,4 +81,54 @@ First, I've tidy data in this format.
 ![Points Evolution](./plots/evolution_points.png)
 
 
+## Calculating probability
+
+In this calculation, I choose a specific standing position, calculate the mean score of that position in historical data, finally get the number of chances of reach this score.
+
+$$ \overline{C}_{n}^{k} = \frac{(k + n - 1)!}{k! (n - 1)!} $$
+
+$
+\overline{C}_{n}^{k}
+$
+number of combinations with repetition
+
+$
+n
+$
+number of items in the pool (it may be for example number of alphabet letters, which we use to create words),
+
+$
+k
+$
+number of items used (it may be for example length of the word or number of balls pulled out from the bucket).
+
+### Example of using 5 rounds
+
+---
+
+```R
+   `Round 1` `Round 2` `Round 3` `Round 4` `Round 5`
+   <chr>     <chr>     <chr>     <chr>     <chr>    
+ 1 Win       Win       Win       Win       Win      
+ 2 Win       Win       Win       Win       Draw     
+ 3 Win       Win       Win       Win       Loss     
+ 4 Win       Win       Win       Draw      Draw     
+ 5 Win       Win       Win       Draw      Loss     
+ 6 Win       Win       Win       Loss      Loss     
+ 7 Win       Win       Draw      Draw      Draw     
+ 8 Win       Win       Draw      Draw      Loss     
+ 9 Win       Win       Draw      Loss      Loss     
+10 Win       Win       Loss      Loss      Loss     
+11 Win       Draw      Draw      Draw      Draw     
+12 Win       Draw      Draw      Draw      Loss     
+13 Win       Draw      Draw      Loss      Loss     
+14 Win       Draw      Loss      Loss      Loss     
+15 Win       Loss      Loss      Loss      Loss     
+16 Draw      Draw      Draw      Draw      Draw     
+17 Draw      Draw      Draw      Draw      Loss     
+18 Draw      Draw      Draw      Loss      Loss     
+19 Draw      Draw      Loss      Loss      Loss     
+20 Draw      Loss      Loss      Loss      Loss     
+21 Loss      Loss      Loss      Loss      Loss    
+```
 
