@@ -85,21 +85,15 @@ First, I've tidy data in this format.
 
 In this calculation, I choose a specific standing position, calculate the mean score of that position in historical data, finally get the number of chances of reach this score.
 
-$$ \overline{C}_{n}^{k} = \frac{(k + n - 1)!}{k! (n - 1)!} $$
+![Equation](./equations/equation.svg)
 
-$
-\overline{C}_{n}^{k}
-$
+![Equation1](./equations/equation(1).svg)
 number of combinations with repetition
 
-$
-n
-$
+![Equation1](./equations/equation(2).svg)
 number of items in the pool (it may be for example number of alphabet letters, which we use to create words),
 
-$
-k
-$
+![Equation1](./equations/equation(3).svg)
 number of items used (it may be for example length of the word or number of balls pulled out from the bucket).
 
 ### Example of using 5 rounds
