@@ -20,31 +20,51 @@ An example 2015' season's Brazilian 1st division standing.
 
 ## Most titles in the period
 
-The data contains data from 2008's to 2021's season.
+The data contains data from 2003's to 2020's season.
 
-```R
-  Team       Number of Titles
-  <chr>          <int>
-1 Corinthians        3
-2 Flamengo           3
-3 Cruzeiro           2
-4 Fluminense         2
-5 Palmeiras          2
-6 São Paulo          1
-```
+|Team          | Number of Titles|
+|:--------------|-----:|
+|Corinthians |     4|
+|Cruzeiro    |     3|
+|Flamengo    |     3|
+|São Paulo   |     3|
+|Fluminense  |     2|
+|Palmeiras   |     2|
+|Santos      |     1|
+
+---
 ## Number of rounds as a leader in the period
 
-```R
-  Team                Rounds
-  <chr>               <int>
-1 Corinthians           114
-2 Flamengo              114
-3 Cruzeiro               76
-4 Fluminense             76
-5 Palmeiras              76
-6 São Paulo              38
-7 Atlético Mineiro       20
-```
+|Team          | Rounds|
+|:--------------|-----:|
+|Corinthians |   156|
+|Cruzeiro    |   122|
+|Flamengo    |   114|
+|São Paulo   |   114|
+|Fluminense  |    76|
+|Palmeiras   |    76|
+|Santos      |    46|
+
+---
+## Most points in period
+|Team               | Victories| Draws| Losses| Points|
+|:-------------------|---------:|-----:|------:|------:|
+|São Paulo        |       327|   188|    189|   1169|
+|Santos           |       305|   182|    217|   1097|
+|Flamengo         |       296|   196|    212|   1084|
+|Internacional    |       292|   167|    207|   1043|
+|Corinthians      |       281|   192|    193|   1035|
+|Cruzeiro         |       293|   151|    222|   1030|
+|Grêmio           |       283|   173|    206|   1022|
+|Fluminense       |       270|   189|    245|    999|
+|Atlético Mineiro |       267|   172|    227|    973|
+|Palmeiras        |       266|   162|    192|    960|
+
+---
+
+## Heatmap period
+
+![Points Evolution](./plots/heatmap_seria.png)
 
 ## Teams performances in time-series
 
