@@ -1,5 +1,6 @@
 # SoccerScience
 
+
 The project consists of some data science exercises using soccer data.
 First of all, I've collected data from the last 14 years Brasileirão Série A and B. 
 ## Brazilian 1st division historical data
