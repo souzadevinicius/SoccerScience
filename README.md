@@ -2,7 +2,7 @@
 
 
 The project consists of some data science exercises using soccer data.
-First of all, I've collected data from the last 14 years Brasileirão Série A and B. 
+First of all, I've collected data from the last 14 years Brasileirão Série A and B.
 ## Brazilian 1st division historical data
 
 An example 2015' season's Brazilian 1st division standing.
@@ -21,45 +21,48 @@ An example 2015' season's Brazilian 1st division standing.
 
 ## Most titles in the period
 
-The data contains data from 2003's to 2020's season.
+The data contains data from 2003's to 2023's season.
 
 |Team          | Number of Titles|
 |:--------------|-----:|
-|Corinthians |     4|
-|Cruzeiro    |     3|
-|Flamengo    |     3|
-|São Paulo   |     3|
-|Fluminense  |     2|
-|Palmeiras   |     2|
-|Santos      |     1|
+|Corinthians-SP      |  4|
+|Cruzeiro-MG         |  3|
+|Flamengo-RJ         |  3|
+|Palmeiras-SP        |  3|
+|São Paulo-SP        |  3|
+|Fluminense-RJ       |  2|
+|Atlético Mineiro-MG |  1|
+|Santos-SP           |  1|
 
 ---
 ## Number of rounds as a leader in the period
 
 |Team          | Rounds|
 |:--------------|-----:|
-|Corinthians |   156|
-|Cruzeiro    |   122|
-|Flamengo    |   114|
-|São Paulo   |   114|
-|Fluminense  |    76|
-|Palmeiras   |    76|
-|Santos      |    46|
+|Corinthians-SP      | 156|
+|Cruzeiro-MG         | 122|
+|Flamengo-RJ         | 114|
+|Palmeiras-SP        | 114|
+|São Paulo-SP        | 114|
+|Fluminense-RJ       |  76|
+|Santos-SP           |  46|
+|Atlético Mineiro-MG |  38|
+|Botafogo-RJ         |  36|
 
 ---
 ## Most points in period
-|Team               | Victories| Draws| Losses| Points|
-|:-------------------|---------:|-----:|------:|------:|
-|São Paulo        |       327|   188|    189|   1169|
-|Santos           |       305|   182|    217|   1097|
-|Flamengo         |       296|   196|    212|   1084|
-|Internacional    |       292|   167|    207|   1043|
-|Corinthians      |       281|   192|    193|   1035|
-|Cruzeiro         |       293|   151|    222|   1030|
-|Grêmio           |       283|   173|    206|   1022|
-|Fluminense       |       270|   189|    245|    999|
-|Atlético Mineiro |       267|   172|    227|    973|
-|Palmeiras        |       266|   162|    192|    960|
+|Team                    | Victories| Draws| Losses| Points|
+|:-----------------------|---------:|-----:|------:|------:|
+|São Paulo-SP            |       351|   218|    211|   1271|
+|Flamengo-RJ             |       335|   212|    233|   1217|
+|Santos-SP               |       329|   207|    244|   1194|
+|Internacional-RS        |       324|   192|    226|   1164|
+|Corinthians-SP          |       314|   215|    213|   1157|
+|Palmeiras-SP            |       309|   180|    207|   1107|
+|Atlético Mineiro-MG     |       308|   191|    243|   1115|
+|Fluminense-RJ           |       306|   205|    269|   1123|
+|Athletico Paranaense-PR |       295|   175|    272|   1060|
+|Grêmio-RS               |       295|   180|    225|   1065|
 
 ---
 
@@ -123,27 +126,27 @@ number of items used (it may be for example length of the word or number of ball
 
 ```R
    `Round 1` `Round 2` `Round 3` `Round 4` `Round 5`
-   <chr>     <chr>     <chr>     <chr>     <chr>    
- 1 Win       Win       Win       Win       Win      
- 2 Win       Win       Win       Win       Draw     
- 3 Win       Win       Win       Win       Loss     
- 4 Win       Win       Win       Draw      Draw     
- 5 Win       Win       Win       Draw      Loss     
- 6 Win       Win       Win       Loss      Loss     
- 7 Win       Win       Draw      Draw      Draw     
- 8 Win       Win       Draw      Draw      Loss     
- 9 Win       Win       Draw      Loss      Loss     
-10 Win       Win       Loss      Loss      Loss     
-11 Win       Draw      Draw      Draw      Draw     
-12 Win       Draw      Draw      Draw      Loss     
-13 Win       Draw      Draw      Loss      Loss     
-14 Win       Draw      Loss      Loss      Loss     
-15 Win       Loss      Loss      Loss      Loss     
-16 Draw      Draw      Draw      Draw      Draw     
-17 Draw      Draw      Draw      Draw      Loss     
-18 Draw      Draw      Draw      Loss      Loss     
-19 Draw      Draw      Loss      Loss      Loss     
-20 Draw      Loss      Loss      Loss      Loss     
-21 Loss      Loss      Loss      Loss      Loss    
+   <chr>     <chr>     <chr>     <chr>     <chr>
+ 1 Win       Win       Win       Win       Win
+ 2 Win       Win       Win       Win       Draw
+ 3 Win       Win       Win       Win       Loss
+ 4 Win       Win       Win       Draw      Draw
+ 5 Win       Win       Win       Draw      Loss
+ 6 Win       Win       Win       Loss      Loss
+ 7 Win       Win       Draw      Draw      Draw
+ 8 Win       Win       Draw      Draw      Loss
+ 9 Win       Win       Draw      Loss      Loss
+10 Win       Win       Loss      Loss      Loss
+11 Win       Draw      Draw      Draw      Draw
+12 Win       Draw      Draw      Draw      Loss
+13 Win       Draw      Draw      Loss      Loss
+14 Win       Draw      Loss      Loss      Loss
+15 Win       Loss      Loss      Loss      Loss
+16 Draw      Draw      Draw      Draw      Draw
+17 Draw      Draw      Draw      Draw      Loss
+18 Draw      Draw      Draw      Loss      Loss
+19 Draw      Draw      Loss      Loss      Loss
+20 Draw      Loss      Loss      Loss      Loss
+21 Loss      Loss      Loss      Loss      Loss
 ```
 
