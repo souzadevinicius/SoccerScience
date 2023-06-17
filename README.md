@@ -51,6 +51,11 @@ The data contains data from 2003's to 2023's season.
 
 ---
 ## Most points in period
+
+
+![Most points in period](./plots/ranking_by_points.gif).
+
+
 |Team                    | Victories| Draws| Losses| Points|
 |:-----------------------|---------:|-----:|------:|------:|
 |São Paulo-SP            |       351|   218|    211|   1271|
