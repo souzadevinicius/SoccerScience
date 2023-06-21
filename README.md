@@ -2,7 +2,7 @@
 
 
 The project consists of some data science exercises using soccer data.
-First of all, I've collected data from the last 14 years Brasileirão Série A and B.
+First of all, I've collected data from the last 21 years Brasileirão Série A and B.
 ## Brazilian 1st division historical data
 
 An example 2015' season's Brazilian 1st division standing.
@@ -73,11 +73,21 @@ The data contains data from 2003's to 2023's season.
 
 ## Heatmap period
 
-![Points Evolution](./plots/heatmap_seria.png)
+![Heatmap](./plots/heatmap_seria.png)
+
+## Best Home Teams
+
+![Best Home Teams](./plots/best_homes_overall.png)
+
+
+## Best Home Teams Mean
+
+![Best Home Teams](./plots/best_homes_mean.png)
+
 
 ## Teams performances in time-series
 
-The figure below shows the overall performance among all teams that have appeared on a brasileirão série at least one time. The blue line shows the home performance. The red-filled line marks the team performance as a visitor.
+The figure below shows the overall performance among all teams that have appeared on a brasileirão série A (first division) at least one time. The blue line shows the home performance. The red-filled line marks the team performance as a visitor.
 
 
   - Yellow rectangle marks the champion team
@@ -86,7 +96,7 @@ The figure below shows the overall performance among all teams that have appeare
   - Red rectangle marks the COVID-19 period
 
 
-![Points Evolution](./plots/performance.png)
+![Performance](./plots/performance.png)
 
 ## Analysis of a specific season
 
