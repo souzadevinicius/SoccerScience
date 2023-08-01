@@ -75,14 +75,14 @@ The data contains data from 2003's to 2023's season.
 
 ![Heatmap](./plots/heatmap_seria.png)
 
-## Best Home Teams
+<!-- ## Best Home Teams -->
 
-![Best Home Teams](./plots/best_homes_overall.png)
+<!-- ![Best Home Teams](./plots/best_homes_overall.png) -->
 
 
-## Best Home Teams Mean
+<!-- ## Best Home Teams Mean -->
 
-![Best Home Teams](./plots/best_homes_mean.png)
+<!-- ![Best Home Teams](./plots/best_homes_mean.png) -->
 
 
 ## Teams performances in time-series
@@ -93,10 +93,13 @@ The figure below shows the overall performance among all teams that have appeare
   - Yellow rectangle marks the champion team
   - Green rectangle marks the Libertadores' zone
   - Black rectangle marks the relegation zone
-  - Red rectangle marks the COVID-19 period
+  <!-- - Red rectangle marks the COVID-19 period -->
 
 
-![Performance](./plots/performance.png)
+{% include plots/seriea.html %}
+
+
+<!-- ![Performance](./plots/performance.png) -->
 
 ## Analysis of a specific season
 
