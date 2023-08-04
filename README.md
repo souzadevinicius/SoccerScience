@@ -95,8 +95,13 @@ The figure below shows the overall performance among all teams that have appeare
   - Black rectangle marks the relegation zone
   <!-- - Red rectangle marks the COVID-19 period -->
 
+## Positions Per Year
 
-{% include plots/seriea.html %}
+![Positions Per Year](./plots/positions_per_year.png)
+
+## Positions Per Team
+
+![Positions Per Team](./plots/positions_per_team.png)
 
 
 <!-- ![Performance](./plots/performance.png) -->
